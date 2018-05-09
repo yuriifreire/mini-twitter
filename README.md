@@ -1,24 +1,22 @@
-Django Twitter Clone
+Django Mini-Twitter Project
 ====================
 
-This repo is my attempt at a small and simple Twitter "clone" using Django.
-It's a clone in name only, since I'm not actually copying their REST API or web
-interface.  I'm just making a site with similar REST API and functionality.
+This repo is my attempt of a small and simple twitter project using Django and Django Rest.
+I'm just doing a project with REST API for the selection of trainee to GooDrink.
 
-To achieve this, I'm using the Django REST Framework to create a REST API
-backend, and then I'll later create a frontend website using Javascript.
+To achieve this, I am using the Framework Django rest to create a backend REST API and then later implement it in the frontend of GooDrink itself.
 
 
 Setup
 -----
 
-Right now it's simple.  (Requires Linux, Python 3, etc.)
+Right now it's simple.  (Requires Linux/Mac, Python 3, etc.)
 
 ```bash
-$ git clone git@github.com:brenns10/dtwit.git
-$ cd dtwit
-$ virtualenv venv
-$ . venv/bin/activate
+$ git clone git@github.com:yuriifreire/mini-twitter.git
+$ cd mini-twitter
+$ virtualenv myvenv
+$ . myvenv/bin/activate
 $ pip install -r requirements.txt
 $ ./manage.py createsuperuser  # (you'll want this)
 $ ./manage.py runserver
